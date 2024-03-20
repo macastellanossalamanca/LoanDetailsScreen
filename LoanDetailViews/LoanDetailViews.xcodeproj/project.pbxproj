@@ -18,6 +18,7 @@
 		DD288FD02BAA780F00E9AF65 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD288FCF2BAA780F00E9AF65 /* DataManager.swift */; };
 		DD288FD22BAA796400E9AF65 /* loanInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = DD288FD12BAA796400E9AF65 /* loanInfo.json */; };
 		DD288FD42BAA7A2E00E9AF65 /* LoanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD288FD32BAA7A2E00E9AF65 /* LoanViewModel.swift */; };
+		DD288FD62BAB18BC00E9AF65 /* PaymentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD288FD52BAB18BC00E9AF65 /* PaymentDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		DD288FCF2BAA780F00E9AF65 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		DD288FD12BAA796400E9AF65 /* loanInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = loanInfo.json; path = ../../../../../../Downloads/loanInfo.json; sourceTree = "<group>"; };
 		DD288FD32BAA7A2E00E9AF65 /* LoanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanViewModel.swift; sourceTree = "<group>"; };
+		DD288FD52BAB18BC00E9AF65 /* PaymentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				DD288FCB2BAA770800E9AF65 /* Model */,
 				DD288F9E2BAA557800E9AF65 /* LoanDetailViewsApp.swift */,
 				DD288FA02BAA557800E9AF65 /* ContentView.swift */,
+				DD288FD52BAB18BC00E9AF65 /* PaymentDetailView.swift */,
 				DD288FA22BAA559A00E9AF65 /* Assets.xcassets */,
 				DD288FA42BAA559A00E9AF65 /* Preview Content */,
 			);
@@ -288,6 +291,7 @@
 			files = (
 				DD288FD42BAA7A2E00E9AF65 /* LoanViewModel.swift in Sources */,
 				DD288FCE2BAA776200E9AF65 /* LoanModel.swift in Sources */,
+				DD288FD62BAB18BC00E9AF65 /* PaymentDetailView.swift in Sources */,
 				DD288FD02BAA780F00E9AF65 /* DataManager.swift in Sources */,
 				DD288FA12BAA557800E9AF65 /* ContentView.swift in Sources */,
 				DD288F9F2BAA557800E9AF65 /* LoanDetailViewsApp.swift in Sources */,
