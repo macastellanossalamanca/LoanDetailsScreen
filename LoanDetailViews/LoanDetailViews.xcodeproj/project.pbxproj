@@ -14,6 +14,10 @@
 		DD288FB02BAA559A00E9AF65 /* LoanDetailViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD288FAF2BAA559A00E9AF65 /* LoanDetailViewsTests.swift */; };
 		DD288FBA2BAA559B00E9AF65 /* LoanDetailViewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD288FB92BAA559B00E9AF65 /* LoanDetailViewsUITests.swift */; };
 		DD288FBC2BAA559B00E9AF65 /* LoanDetailViewsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD288FBB2BAA559B00E9AF65 /* LoanDetailViewsUITestsLaunchTests.swift */; };
+		DD288FCE2BAA776200E9AF65 /* LoanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD288FCD2BAA776200E9AF65 /* LoanModel.swift */; };
+		DD288FD02BAA780F00E9AF65 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD288FCF2BAA780F00E9AF65 /* DataManager.swift */; };
+		DD288FD22BAA796400E9AF65 /* loanInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = DD288FD12BAA796400E9AF65 /* loanInfo.json */; };
+		DD288FD42BAA7A2E00E9AF65 /* LoanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD288FD32BAA7A2E00E9AF65 /* LoanViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		DD288FB52BAA559B00E9AF65 /* LoanDetailViewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoanDetailViewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD288FB92BAA559B00E9AF65 /* LoanDetailViewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanDetailViewsUITests.swift; sourceTree = "<group>"; };
 		DD288FBB2BAA559B00E9AF65 /* LoanDetailViewsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanDetailViewsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DD288FCD2BAA776200E9AF65 /* LoanModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanModel.swift; sourceTree = "<group>"; };
+		DD288FCF2BAA780F00E9AF65 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		DD288FD12BAA796400E9AF65 /* loanInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = loanInfo.json; path = ../../../../../../Downloads/loanInfo.json; sourceTree = "<group>"; };
+		DD288FD32BAA7A2E00E9AF65 /* LoanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,8 @@
 		DD288F9D2BAA557800E9AF65 /* LoanDetailViews */ = {
 			isa = PBXGroup;
 			children = (
+				DD288FCC2BAA773F00E9AF65 /* ViewModel */,
+				DD288FCB2BAA770800E9AF65 /* Model */,
 				DD288F9E2BAA557800E9AF65 /* LoanDetailViewsApp.swift */,
 				DD288FA02BAA557800E9AF65 /* ContentView.swift */,
 				DD288FA22BAA559A00E9AF65 /* Assets.xcassets */,
@@ -125,6 +135,24 @@
 				DD288FBB2BAA559B00E9AF65 /* LoanDetailViewsUITestsLaunchTests.swift */,
 			);
 			path = LoanDetailViewsUITests;
+			sourceTree = "<group>";
+		};
+		DD288FCB2BAA770800E9AF65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD288FCD2BAA776200E9AF65 /* LoanModel.swift */,
+				DD288FCF2BAA780F00E9AF65 /* DataManager.swift */,
+				DD288FD12BAA796400E9AF65 /* loanInfo.json */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DD288FCC2BAA773F00E9AF65 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DD288FD32BAA7A2E00E9AF65 /* LoanViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD288FD22BAA796400E9AF65 /* loanInfo.json in Resources */,
 				DD288FA62BAA559A00E9AF65 /* Preview Assets.xcassets in Resources */,
 				DD288FA32BAA559A00E9AF65 /* Assets.xcassets in Resources */,
 			);
@@ -257,6 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD288FD42BAA7A2E00E9AF65 /* LoanViewModel.swift in Sources */,
+				DD288FCE2BAA776200E9AF65 /* LoanModel.swift in Sources */,
+				DD288FD02BAA780F00E9AF65 /* DataManager.swift in Sources */,
 				DD288FA12BAA557800E9AF65 /* ContentView.swift in Sources */,
 				DD288F9F2BAA557800E9AF65 /* LoanDetailViewsApp.swift in Sources */,
 			);

@@ -2,7 +2,7 @@
 //  LoanDetailViewsTests.swift
 //  LoanDetailViewsTests
 //
-//  Created by Sandra Salamanca on 19/03/24.
+//  Created by Miguel Castellanos on 19/03/24.
 //
 
 import XCTest
