@@ -10,7 +10,12 @@
 
 # How it works
 
-- Just below you can find a video of the project running.
+- Just below you can find the views of the project.
 
-https://github.com/macastellanossalamanca/LoanDetailsScreen/assets/44925834/6ad27c09-1ff6-4724-a48a-98862704ae55
+
+![Captura de Pantalla 2024-03-20 a la(s) 10 53 27 a m](https://github.com/macastellanossalamanca/LoanDetailsScreen/assets/44925834/46b3fe99-46c3-4d40-a093-5162d300fb6a)
+![Captura de Pantalla 2024-03-20 a la(s) 10 53 12 a m](https://github.com/macastellanossalamanca/LoanDetailsScreen/assets/44925834/9b31df4a-3171-4ff1-8b01-1912af719aa2)
+
+
+
 
